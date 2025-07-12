@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>404 - Not Found</title>
+  <style>
+    body {
+      background-color: #0c0c0c;
+      color: #f00;
+      font-family: monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+    .glitch {
+      color: #ff004c;
+      text-shadow: 1px 0 #00ffd5, -1px 0 #ff004c;
+      font-size: 2em;
+      animation: flicker 1s infinite alternate;
+    }
+    @keyframes flicker {
+      0% { opacity: 1; }
+      50% { opacity: 0.6; }
+      100% { opacity: 1; }
+    }
+    .error {
+      margin-top: 20px;
+      font-size: 1.1em;
+    }
+    .static {
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="glitch">404 // NODE LOST</div>
+  <div class="error">The page you are looking for has fractured beyond retrievability.</div>
+  <div class="error">Spectre© interference detected. This may not be your first visit.</div>
+  <div class="static">// trace: [echo://fragments/corrupt/instance]</div>
+</body>
+</html>
